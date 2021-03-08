@@ -14,8 +14,5 @@ def FizzBuzz(num):
     return num
 
 def print100():
-    for num in range(1,11):
-        while(num<=100):
-            print(num," ", end ="")
-            num+=10
-        print()
+    for num in range(100):
+        print(FizzBuzz(num))
