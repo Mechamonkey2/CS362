@@ -12,14 +12,12 @@ class TestCase(unittest.TestCase):
         self.assertEqual(TDD_tests.hello_world(),'Hello World!')
 
 class return_number(unittest.TestCase):
+    TDD_tests.print100()
     def test1(self):
-        self.assertEqual(TDD_tests.FizzBuzz(1),1)
+        self.assertEqual(TDD_tests.FizzBuzz(3),3)
 
-    for i in range(1,11):
-        while(i<=100):
-            print(i," ", end ="")
-            i+=10
-        print()
+    #def test2(self):
+    #    self.assertEqual(TDD_tests.FizzBuzz(i),3)
 
 if __name__ == '__main__':
     unittest.main()
