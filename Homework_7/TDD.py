@@ -15,5 +15,8 @@ class return_number(unittest.TestCase):
     def test1(self):
         self.assertEqual(TDD_tests.FizzBuzz(1),1)
 
+    for i in range(1,11):
+        print(1)
+
 if __name__ == '__main__':
     unittest.main()
