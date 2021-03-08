@@ -11,6 +11,9 @@ class mod4(unittest.TestCase):
     def test2(self):
         self.assertEqual(100,"leap year")
 
+    def test3(self):
+        self.assertEqual(400,"leap year")
+
 
 if __name__ == "__main__":
     unittest.main()
