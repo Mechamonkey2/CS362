@@ -6,7 +6,7 @@ import unittest
 import leapyearsTDD
 class mod4(unittest.TestCase):
     def test1(self):
-        self.assertEqual(4,"leap year")
+        self.assertEqual(leapyearsTDD.leapyear(4),"leap year")
 
     def test2(self):
         self.assertEqual(100,"leap year")
