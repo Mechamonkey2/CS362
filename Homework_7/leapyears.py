@@ -9,16 +9,16 @@ class mod4(unittest.TestCase):
         self.assertEqual(leapyearsTDD.leapyear(4),"leap year")
 
     def test2(self):
-        self.assertEqual(leapyearsTDD.leapyear(100),"leap year")
-
-    def test3(self):
         self.assertEqual(leapyearsTDD.leapyear(400),"leap year")
 
-    def test4(self):
+    def test3(self):
         self.assertEqual(leapyearsTDD.leapyear(13),"not leap year")
 
-    def test5(self):
+    def test4(self):
         self.assertEqual(leapyearsTDD.leapyear(2012),"leap year")
+
+    def test5(self):
+        self.assertEqual(leapyearsTDD.leapyear(1900),"not leap year")
 
 
 if __name__ == "__main__":
