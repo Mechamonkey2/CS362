@@ -1,1 +1,36 @@
+Question 3:
+I never made a social media platform for my activities, so I will be going
+back to the bank application I referred in every other activities.
+
+With the new learning of TDD, Test driven development, I would
+use that test-first approach with something like withdrawing an amount
+of money that ones' bank account has. When an applicant, or a user
+has registered/deposited an amount of money, their bank account holds that amount,
+until more deposited is added, or until money is withdrawn. Once the money data
+is registered to the users credentials, I would use the TDD, for withdrawning
+money from the user's account. 
+
+This type of TDD applies towards things like, if one, the user wants to withdraw
+money for his/her/they's account, they are able to withdraw equal to or less 
+than what their account has. The idea of withdrawning also applies towards
+other people that need to withdraw money from his/her/they's account.
+For example paying for rent. Using the TDD method, the system can run
+test cases to determine whether or not the user has enough money in their account.
+If the user has enough money, the system can withdraw the amount of money
+that needs to be withdrawn. If the user does not have enough money, in this
+case, we wil not be able to withdraw money from the account.
+
+An approach for withdrawing money would be like:
+Create test cases that is guarantee to fail such as
+        self.assertEqual(withdraw(500),"OKAY")
+        self.assertEqual(withdraw(500),"NOT OKAY")
+Create code that allows the system to compare what the given data has, to
+what they user wants to withdraw.
+Create code that showcases information of successful withdrawal, or deny
+due to lack of money.
+Create to to re-enter a valid user input for withdrawal of money. 
+Verify the system comparasion works.
+Create an input box that allows the user to enter numbers. 
+Create a button that uses the withdrawal money system.
+Implement the withdrawal system page when the user wants to withdraw money.
 
