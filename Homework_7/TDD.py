@@ -11,5 +11,9 @@ class TestCase(unittest.TestCase):
     def test1(self):
         self.assertEqual(TDD_tests.hello_world(),'Hello World!')
 
+class return_number(unittest.TestCase):
+    def test1(self):
+        self.assertEqual(TDD_tests.FizzBuzz(1),1)
+
 if __name__ == '__main__':
     unittest.main()
