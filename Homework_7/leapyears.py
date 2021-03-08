@@ -9,7 +9,7 @@ class mod4(unittest.TestCase):
         self.assertEqual(leapyearsTDD.leapyear(4),"leap year")
 
     def test2(self):
-        self.assertEqual(100,"leap year")
+        self.assertEqual(leapyearsTDD.leapyear(100),"leap year")
 
     def test3(self):
         self.assertEqual(400,"leap year")
