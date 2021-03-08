@@ -20,6 +20,8 @@ class return_number(unittest.TestCase):
         self.assertEqual(TDD_tests.FizzBuzz(5),"buzz")
     def test3(self):
         self.assertEqual(TDD_tests.FizzBuzz(15),"fizzbuzz")
+    def test4(self):
+        self.assertEqual(TDD_tests.FizzBuzz(39),"fizz")
 
 
 
