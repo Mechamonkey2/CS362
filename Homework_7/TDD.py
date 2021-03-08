@@ -18,8 +18,8 @@ class return_number(unittest.TestCase):
         self.assertEqual(TDD_tests.FizzBuzz(4),4)
         self.assertEqual(TDD_tests.FizzBuzz(5),"buzz")
 
-    #def test2(self):
-    #    self.assertEqual(TDD_tests.FizzBuzz(i),3)
+print("\n")
+
 
 if __name__ == '__main__':
     unittest.main()
