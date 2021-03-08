@@ -16,8 +16,8 @@ class return_number(unittest.TestCase):
     def test1(self):
         self.assertEqual(TDD_tests.FizzBuzz(3),"fizz")
         self.assertEqual(TDD_tests.FizzBuzz(4),4)
+    def test2(self):
         self.assertEqual(TDD_tests.FizzBuzz(5),"buzz")
-        self.assertEqual(TDD_tests.FizzBuzz(15),"fizzbuzz")
 
 
 
