@@ -3,12 +3,19 @@ def hello_world():
 
 def FizzBuzz(num):
     if not num % 15:
-        return "fizzbuzz"
+        return("fizzbuzz")
 
     if not num % 3:
-        return "fizz"
+        return("fizz")
 
     if not num % 6:
-        return "buzz"
+        return("buzz")
 
     return num
+
+def print100():
+    for num in range(1,11):
+        while(num<=100):
+            print(num," ", end ="")
+            num+=10
+        print()
