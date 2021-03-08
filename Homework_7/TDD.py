@@ -16,7 +16,10 @@ class return_number(unittest.TestCase):
         self.assertEqual(TDD_tests.FizzBuzz(1),1)
 
     for i in range(1,11):
-        print(1)
+        while(i<=100):
+            print(i," ", end ="")
+            i+=10
+        print()
 
 if __name__ == '__main__':
     unittest.main()
