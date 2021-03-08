@@ -13,8 +13,12 @@ class mod4(unittest.TestCase):
 
     def test3(self):
         self.assertEqual(leapyearsTDD.leapyear(400),"leap year")
+
     def test4(self):
         self.assertEqual(leapyearsTDD.leapyear(13),"not leap year")
+
+    def test5(self):
+        self.assertEqual(leapyearsTDD.leapyear(2012),"leap year")
 
 
 if __name__ == "__main__":
